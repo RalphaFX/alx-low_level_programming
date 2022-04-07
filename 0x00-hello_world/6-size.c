@@ -3,7 +3,7 @@
 /**
  * main - Entry Point
  * Prints the size of various data types
- * return 0 to show success
+ * Return: 0 (Success)
  */
 int main(void)
 {
@@ -13,4 +13,4 @@ int main(void)
 	printf("Size of a float: %d byte(s)\n", sizeof(float));
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	return (0);
-}	
+}
