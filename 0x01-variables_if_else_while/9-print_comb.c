@@ -13,7 +13,7 @@ int main(void)
 	{	putchar(base10 % 10 + '0');
 		if (base10 < 9)
 		{	putchar(',');
-		        putchar(' ');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
