@@ -10,16 +10,13 @@ int main(void)
        int base10;
        
        for (base10 = 0 ; base10 < 10 ; base10++)
-       {
-	       putchar(base10%10 + '0');
-	       if (base10 < 9)
-	       {
-		       putchar(',');
-		       putchar(' ');
-	       }
+       {	putchar(base10%10 + '0');
+	        if (base10 < 9)
+		{	putchar(',');
+		        putchar(' ');
+	        }
        }
-	putchar('\n');
-
-	return (0);
+       putchar('\n');
+       return (0);
 
 }
