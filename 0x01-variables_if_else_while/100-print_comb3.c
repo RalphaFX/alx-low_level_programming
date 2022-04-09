@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * main - Entry point of the  program
- * Print all possible combinations 
+ * Print all possible combinations
+ *
  * Return: 0 (Success)
  */
 int main(void)
@@ -11,7 +12,7 @@ int main(void)
 	int c;
 
 	for (b = 0 ; b < 9 ; b++)
-	{	c = b +1;
+	{	c = b + 1;
 		for ( ; c < 10 ; c++)
 		{	putchar(b % 10 + '0');
 			putchar(c % 10 + '0');
