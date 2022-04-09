@@ -15,20 +15,17 @@ int main(void)
 	{
 		for (b = 0 ; b < 100 ; b++)
 		{
-			for (c = 50 ; c < 58 ; c++)
-			{
-				if (a < b)
-				{	putchar((a / 10) + 48);
-					putchar((a % 10) + 48);
+			if (a < b)
+			{	putchar((a / 10) + 48);
+				putchar((a % 10) + 48);
+				putchar(' ');
+				putchar((b / 10) + 48);
+				putchar((b % 10) + 48);
+
+				if ((a != 98) || (b != 99))
+				{	putchar(',');
 					putchar(' ');
-					putchar((b / 10) + 48);
-					putchar((b % 10) + 48);
 
-					if ((a != 98) || (b != 99))
-					{	putchar(',');
-						putchar(' ');
-
-					}
 				}
 			}
 		}
