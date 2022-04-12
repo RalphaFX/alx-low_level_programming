@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int printchar(char r)
+int _putchar(char r)
 {
 	return (write(1, &r, 1));
 }
@@ -11,9 +11,9 @@ void print_alphabet(void)
 
 	for (i = 97 ; i < 123 ; i++)
 	{
-		printchar(i);
+		_putchar(i);
 	}
-	printchar('\n');
+	_putchar('\n');
 }
 #endif
 /* main_h */

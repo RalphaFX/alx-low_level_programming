@@ -13,8 +13,8 @@ int main(void)
 	char put[] = "_putchar";
 
 	for (c = 0 ; c < 8 ; c++)
-	{	printchar(put[c]);
+	{	_putchar(put[c]);
 	}
-	printchar('\n');
+	_putchar('\n');
 	return (0);
 }
