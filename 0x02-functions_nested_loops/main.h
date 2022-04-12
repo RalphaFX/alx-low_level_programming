@@ -1,10 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _putchar(char r)
-{
-	return (write(1, &r, 1));
-}
+int _putchar(char r);
 void print_alphabet(void)
 {
 	int i;
