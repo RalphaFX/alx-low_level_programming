@@ -7,13 +7,13 @@
  * Return: 0 (Success)
  */
 
-int main(voi)
+int main(void)
 {
 	int c;
 	char put[] = "_putchar";
 
 	for (c = 0 ; c < 8 ; c++)
-	{	printchar(put(c));
+	{	printchar(put[c]);
 	}
 	printchar('\n');
 	return (0);
