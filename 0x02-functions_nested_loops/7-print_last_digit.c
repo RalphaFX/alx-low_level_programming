@@ -13,7 +13,7 @@ int _abs(int n)
 	return (n < 0 ? -1 * n : n);
 }
 /**
- * print_last_digit: printd the last value of integer n
+ * print_last_digit: prints the last digit of integer n
  * @n: the Value Integer
  * Return: The last digit
  */
