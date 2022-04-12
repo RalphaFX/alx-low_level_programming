@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point of the program
- * Print alphabets of lower case
+ * print_alphabet - Entry point of the program
+ * Description: Print alphabets of lower case to stdout
  */
 
 void print_alphabet(void)
