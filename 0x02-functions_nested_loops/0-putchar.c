@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Entry Point
  * Print _putchar using the main function
@@ -12,8 +13,8 @@ int main(voi)
 	char put[] = "_putchar";
 
 	for (i = 0 ; i < 8 ; i++)
-	{	putchar(put(i));
+	{	_putchar(put(i));
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
