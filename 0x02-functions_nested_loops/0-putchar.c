@@ -13,8 +13,8 @@ int main(voi)
 	char put[] = "_putchar";
 
 	for (i = 0 ; i < 8 ; i++)
-	{	_putchar(put(i));
+	{	printchar(put(i));
 	}
-	_putchar('\n');
+	printchar('\n');
 	return (0);
 }
