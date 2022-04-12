@@ -12,8 +12,8 @@ int main(voi)
 	int c;
 	char put[] = "_putchar";
 
-	for (i = 0 ; i < 8 ; i++)
-	{	printchar(put(i));
+	for (c = 0 ; c < 8 ; c++)
+	{	printchar(put(c));
 	}
 	printchar('\n');
 	return (0);
