@@ -10,7 +10,7 @@
 
 int _atoi(char *s)
 {
-	int i,c,n,len,g,dig;
+	int i, c, n, len, g, dig;
 
 	i = c = n = len = dig = g = 0;
 
@@ -28,7 +28,7 @@ int _atoi(char *s)
 		{
 			dig = s[i] - '0';
 			if (c % 2)
-				dig = - dig;
+				dig = -dig;
 			n = n * 10 + dig;
 			g = 1;
 			if (s[i + 1] < '0' || s[i + 1] > '9')
