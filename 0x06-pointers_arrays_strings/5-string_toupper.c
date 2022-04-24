@@ -7,7 +7,7 @@
  *
  *  Return: the results of modification
  */
-char *strin_toupper(char *s)
+char *string_toupper(char *s)
 {
 	int i;
 
