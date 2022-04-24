@@ -2,7 +2,7 @@
 
 /**
  * *_strcat - concatenates two strings
- * ads the terminating  null byte
+ * adds the terminating  null byte
  * @dest: pointer to the buffer
  * @src: string to be appended
  * Return: The pointer to the resulting string
@@ -11,7 +11,7 @@
 char *_strcat(char *dest, char *src)
 {
 	int len;
-	int  len2;
+	int len2;
 	int len3;
 	int i, j;
 
