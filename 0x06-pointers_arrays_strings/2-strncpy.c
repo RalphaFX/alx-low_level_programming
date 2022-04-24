@@ -6,7 +6,7 @@
  * @src: string to be copied
  * @n: number of bytes to be copied from src
  *
- * return: The pointer to the resulting string dest
+ * Return: the pointer to the resulting string dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -21,5 +21,6 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[i] = '\0';
 	}
+
 	return (dest);
 }
