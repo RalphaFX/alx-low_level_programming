@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * reverse_array - reverses an array of int's
+ * reverse_array - reverses an array of integers
  * @a: array to be reversed
- * @n: The length of array
+ * @n: the length of a
  */
 void reverse_array(int *a, int n)
 {
@@ -15,7 +15,6 @@ void reverse_array(int *a, int n)
 	{
 		temp = a[i];
 		a[i] = a[j];
-		j--;
-		a[j] = temp;
+		a[j--] = temp;
 	}
 }
