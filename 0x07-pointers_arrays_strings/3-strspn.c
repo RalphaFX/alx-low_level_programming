@@ -10,8 +10,9 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	int i, j;
+	unsigned int len;
 
-	unsigned int len = 0;
+	len = 0;
 
 	for (i = 0; (s[i] != '\0'); i++)
 	{
