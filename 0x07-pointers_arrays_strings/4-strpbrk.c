@@ -5,7 +5,7 @@
  * @s: string to be scanned
  * @accept: set of bytes with characters to match
  *
- * Return: Pointer to the byte in s that matches one of 
+ * Return: Pointer to the byte in s that matches one of
  * the bytes in accept else return NULL
  */
 char *_strpbrk(char *s, char *accept)
