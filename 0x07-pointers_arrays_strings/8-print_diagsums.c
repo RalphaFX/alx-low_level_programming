@@ -9,7 +9,6 @@
 void print_diagsums(int *a, int size)
 {
 	int i;
-
 	int tl = tr = 0;
 	int b = size * size;
 
