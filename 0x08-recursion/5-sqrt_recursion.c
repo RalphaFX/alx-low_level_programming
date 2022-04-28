@@ -9,7 +9,7 @@
  */
 int fndSQ(int begin, int end, int v)
 {
-	int center;
+	long center;
 
 	if (end >= begin)
 	{
