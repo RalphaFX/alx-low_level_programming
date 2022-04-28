@@ -5,7 +5,7 @@
  * @y: exponent
  * Return: Value of x^y
  */
-int _pow_recursion(int , int y)
+int _pow_recursion(int x, int y)
 {
 	if (y < 0)
 		return (-1);
