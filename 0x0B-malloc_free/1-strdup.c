@@ -49,7 +49,7 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		for (j=0; j < len; j++)
+		for (j = 0; j < len; j++)
 		{
 			p[j] = str[j];
 		}
