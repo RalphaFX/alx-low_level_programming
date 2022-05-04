@@ -34,19 +34,25 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
+
 	len = _strlen(str);
 
 	if (len <= 0)
 		return (NULL);
+
 	p = malloc(sizeof(char) * len);
 
 	if (p == NULL)
+	{
 		free(p);
 		return (NULL);
+	}
 	else
 	{
 		for (j=0; j < len; j++)
+		{
 			p[j] = str[j];
+		}
 		p[j] = '\0';
 		return ((char *)p);
 	}
