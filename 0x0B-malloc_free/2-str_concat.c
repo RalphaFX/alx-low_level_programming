@@ -21,8 +21,8 @@ int _strlen(char *s)
 	return (i);
 }
 /**
- * str_conca- Entry
- * Concatenate two strings
+ * str_concat - Entry Point
+ * Concatenate two strings and allocate memory
  * @s1: first string
  * @s2: second string
  *
@@ -62,6 +62,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	if (len2 != 0)
 	{
+		i--;
 		for (j = 0; s2[j] != '\0'; i++, j++)
 			p[i] = s2[j];
 	}
