@@ -5,7 +5,7 @@
  * print_dog -  prints dog 's data 
  * @d: dog struct type
  */
-void print_dog(struct dog  *d)
+void print_dog(struct dog *d)
 {
 	if (d != NULL)
 	{
