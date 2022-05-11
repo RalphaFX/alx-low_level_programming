@@ -3,8 +3,8 @@
 /**
  * print_name - prints the name
  * @name: string of characters
- * @f: function pointer to a function that has arguments
- * as char and returns nothing
+ * @f: function pointer to a function
+ * that has arguments as char and returns nothing
  */
 void print_name(char *name, void (*f)(char *))
 {
