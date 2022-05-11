@@ -6,7 +6,7 @@
  * main - Entry Point
  * Description: Print the result of an operation
  * @argc: Number of arguments  supplied
- * @*argv: array of function pointers supplied
+ * @argv: array of function pointers supplied
  * Return: 0 => success
  */
 
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 	}
 
 	if ((*op == '/' && num2 == 0) ||
-	    (*op == '%' && num2 == 0))
+			(*op == '%' && num2 == 0))
 	{
 		printf("Error\n");
 		exit(100);
