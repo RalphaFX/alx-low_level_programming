@@ -4,7 +4,7 @@
  * op_add - summation
  * @a: first arg
  * @b: second arg
- * Return; SUM
+ * Return: SUM
  */
 int op_add(int a, int b)
 {
@@ -47,7 +47,7 @@ int op_div(int a, int b)
  * op_mod - remainder of division
  * @a: first int
  * @b: second int
- * Return: remainder 
+ * Return: remainder
  */
 int  op_mod(int a, int b)
 {
