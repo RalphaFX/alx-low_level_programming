@@ -6,10 +6,12 @@
  * print_int - integer printing
  * @list: arguments ints
  */
+
 void print_int(va_list list)
 {
 	printf("%d", va_arg(list, int));
 }
+
 /**
  * print_float - float printing
  * @list: float arguments
@@ -18,6 +20,7 @@ void print_float(va_list list)
 {
 	printf("%f", va_arg(list, double));
 }
+
 /**
  * print_char - int printing
  * @list: string of characters
@@ -26,6 +29,7 @@ void print_char(va_list list)
 {
 	printf("%c", var_arg(list, int));
 }
+
 /**
  * print_str - strin printing
  * @list: string argument
@@ -42,6 +46,7 @@ void print_str(va_list list)
 		printf("%s", s);
 	}
 }
+
 /**
  * print_all - any type printing
  * @format: args to print
@@ -53,10 +58,10 @@ void print_all(const char * const format, ...)
 	char *separator = "";
 
 	printTypeStruct printType[] = {
-		{"i", print_int},
-		{"f", print_float},
-		{"c", print_char},
-		{"s", print_str},
+		{ "i", print_int },
+		{ "f", print_float },
+		{ "c", print_char },
+		{ "s", print_str },
 		{NULL, NULL}
 	};
 
